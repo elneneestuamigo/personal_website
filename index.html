@@ -7,7 +7,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+            height: 100vh;
+            margin: 0;
         }
         h1 {
             font-size: 36px;
@@ -17,21 +23,21 @@
         img {
             width: 150px; /* Smaller image size */
             height: auto;
-            display: block;
-            margin: 0 auto;
+            margin-bottom: 20px;
         }
         p {
             font-size: 18px;
             margin: 10px 0;
         }
+        .content {
+            max-width: 600px;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <h1>je'e la .Josu. co'o</h1>
-        <img src="satoshi.jpg" alt="thank you, fren.">
-    </div>
-    <div>
+    <h1>je'e la .Josu. co'o</h1>
+    <img src="satoshi.jpg" alt="thank you, fren.">
+    <div class="content">
         <p>la .josu. do'u catni mi .i do na se nabmi</p>
         <p>mi cizra zukte le do velcki .i mi na'e smaji le do selcti</p>
         <p>mi cnemu le do jufra .i mi puzi catni fe le do gunka</p>
